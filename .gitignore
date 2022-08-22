@@ -15,4 +15,6 @@
 .DS_Store
 .prettierignore
 
+# Avoid unnecessary forlers upload
 .vscode/*
+node_modules/*

@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/nft-preview-card-component--YNNsrFAYE)
-- Live Site: [github.io](https://siavhnz.github.io/frontendmentor/2.nft-preview/index.html)
+- Live Site: [github.io](https://siavhnz.github.io/frontendmentor/2.nft-preview-with-tailwindcss/index.html)
 
 ## My process
 
@@ -50,76 +50,46 @@ Users should be able to:
 
 - Semantic HTML5 markup
   - main, article, figure, footer, address
-- CSS custom properties
-- Flexbox
+- Tailwindcss
 
 ### What I learned
 
->"HTML should be coded to represent the data that will be populated and not based on its default presentation styling. Presentation (how it should look), is the sole responsibility of CSS."
-> --<cite>[MDN][1]</cite>
+This is a Tailwindcss solution version for the [NFT preview card component challenge](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
 
+I learned how to:
 
-I read [MDN Semantics article](https://developer.mozilla.org/en-US/docs/Glossary/Semantics) and tried to use semantic HTML5 markup.
+ - [Customize default font](https://tailwindcss.com/docs/font-family#customizing-the-default-font) to [Preflight](https://tailwindcss.com/docs/preflight)
 
-I Learned how to create an image with an overlay without losing the opacity of elements.
+ - [Customize defaut theme](https://tailwindcss.com/docs/background-color#customizing-your-theme)
 
-First use a rgba instead of rgb to control the opacity of overlay tags
+> Built on top of [modern-normalize](https://github.com/sindresorhus/modern-normalize), Preflight is a set of base styles for Tailwind projects that are designed to smooth over cross-browser inconsistencies and make it easier for you to work within the constraints of your design system.
 
-```
-:root {
-  --overlay: rgba(0, 255, 247, .5);
-}
-```
-Second use position relative for image container
-
-```
-.card .img-effect{
-  position: relative;
-}
-```
-
-Finally style the overlay container
-
-```
-.card .img-effect .overlay{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-  background-color: var(--overlay);
-  position:absolute;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  transition: opacity 0.5s;
-  opacity: 0;
-}
-.card .img-effect:hover .overlay{
-  cursor: pointer;
-  opacity:1;
-  transition: opacity 0.5s;
-}
-```
 
 ### Continued development
 
-I got better at using flexbox and relative values but I need more practice to grasp completely all the concepts that these attributes offer. Also, I need to read more about HTML5 semantics to create a better HTML skeleton.
+I want to read more about pure CSS, understand its various concepts, and also; work with Tailwindcss on further challenges.
 
 ### Useful resources
 
-- [MDN Semantics article](https://developer.mozilla.org/en-US/docs/Glossary/Semantics) - To create a better HTML skeleton. 
+- [Tailwindcss installation](https://tailwindcss.com/docs/installation)
 
-- [Content categories](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories) - This helped me to use the semantic HTML 5 elements where they were most proper. Related stuff for this topic: [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- [Preflight](https://tailwindcss.com/docs/preflight) - help to smooth over cross-browser inconsistencies
 
-- [WHATWG Specification](https://html.spec.whatwg.org/#how-to-read-this-specification) - I used it to check whether can I use the `<cite>` tag for a person's name or not? The answer was NO.
+- [Customize default font in tailwindcss](https://tailwindcss.com/docs/font-family#customizing-the-default-font)
+
+- [Customize defaut theme in tailwindcss](https://tailwindcss.com/docs/background-color#customizing-your-theme)
 
 ## Author
+
 Frontend Mentor - [@siavhnz](https://www.frontendmentor.io/profile/siavhnz)
 
 ## Acknowledgments
 
-[Frontendmentor.io](https://www.frontendmentor.io/challenges) for their Excitement challenges  
+Thanks to:
 
-[Perfect Pixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) for such a great extension
+[Frontendmentor.io](https://www.frontendmentor.io/challenges) - for their Excitement challenges  
 
-[1]: https://developer.mozilla.org/en-US/docs/Glossary/Semantics
+[Perfect Pixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) - for such a great extension
+
+[Tailwindcss](https://tailwindcss.com/) - for making CSS easy
+
