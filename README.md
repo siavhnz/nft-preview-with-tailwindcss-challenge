@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/nft-preview-card-component--YNNsrFAYE)
-- Live Site: [github.io](https://siavhnz.github.io/frontendmentor/2.nft-preview-with-tailwindcss/index.html)
+- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/nft-preview-card-component-with-tailwindcss-RUX2WVnT0k)
+- Live Site: [github.io](https://siavhnz.github.io/frontendmentor/3.nft-preview-with-tailwindcss/index.html)
 
 ## My process
 
@@ -61,9 +61,7 @@ I learned how to:
  - [Customize default font](https://tailwindcss.com/docs/font-family#customizing-the-default-font) to [Preflight](https://tailwindcss.com/docs/preflight)
 
  - [Customize defaut theme](https://tailwindcss.com/docs/background-color#customizing-your-theme)
-
-> Built on top of [modern-normalize](https://github.com/sindresorhus/modern-normalize), Preflight is a set of base styles for Tailwind projects that are designed to smooth over cross-browser inconsistencies and make it easier for you to work within the constraints of your design system.
-
+ 
 
 ### Continued development
 
